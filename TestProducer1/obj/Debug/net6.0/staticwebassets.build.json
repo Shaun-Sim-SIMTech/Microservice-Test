@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9js1SyWVXb+pKAtqD4x6Ntwqes3+RjgqgvgxDZ/rkqY=",
+  "Source": "TestProducer1",
+  "BasePath": "_content/TestProducer1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

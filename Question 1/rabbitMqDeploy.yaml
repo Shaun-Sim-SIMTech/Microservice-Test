@@ -29,7 +29,7 @@ spec:
     targetPort: 15672
     nodePort: 32000
     name: "management"
-  - port: 5672
+  - port: 80
     targetPort: 5672
     name: "connection"
     nodePort: 32001
