@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+ name: hello-ingress
+ annotations:
+   kubernetes.io/ingress.class: kong
+spec:
+ rules:
+ - http:
+     paths:
+     - path: /producer/v1
+       pathType: Prefix
+       backend:
+         service:
+           name: producer
+           port:
+             number: 80
+     - path: /hello/v1
+       pathType: Prefix
+       backend:
+         service:
+           name: hellov1
+           port:
+             number: 80
